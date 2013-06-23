@@ -1,0 +1,4 @@
+LIBRARY "testing-dll"
+
+EXPORTS
+	test_beep	@1

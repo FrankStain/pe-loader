@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6A5AE4F3-A7C1-4253-A5A7-786C82D11089}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{E1CDAE82-D33C-42C9-AF4A-D6E397399F20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pe-loader", "pe-loader\pe-loader.vcxproj", "{F6CAFBFB-2AC2-4241-938A-EF2001A19B36}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pe-load-con", "pe-load-con\pe-load-con.vcxproj", "{AE03790D-C643-4DE6-ACD7-B1B6E5664E26}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testing-dll", "testing-dll\testing-dll.vcxproj", "{02AD654D-14A5-4589-817F-C131D6889CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CAFBFB-2AC2-4241-938A-EF2001A19B36}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6CAFBFB-2AC2-4241-938A-EF2001A19B36}.Debug|Win32.Build.0 = Debug|Win32
+		{F6CAFBFB-2AC2-4241-938A-EF2001A19B36}.Release|Win32.ActiveCfg = Release|Win32
+		{F6CAFBFB-2AC2-4241-938A-EF2001A19B36}.Release|Win32.Build.0 = Release|Win32
+		{AE03790D-C643-4DE6-ACD7-B1B6E5664E26}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE03790D-C643-4DE6-ACD7-B1B6E5664E26}.Debug|Win32.Build.0 = Debug|Win32
+		{AE03790D-C643-4DE6-ACD7-B1B6E5664E26}.Release|Win32.ActiveCfg = Release|Win32
+		{AE03790D-C643-4DE6-ACD7-B1B6E5664E26}.Release|Win32.Build.0 = Release|Win32
+		{02AD654D-14A5-4589-817F-C131D6889CFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02AD654D-14A5-4589-817F-C131D6889CFB}.Debug|Win32.Build.0 = Debug|Win32
+		{02AD654D-14A5-4589-817F-C131D6889CFB}.Release|Win32.ActiveCfg = Release|Win32
+		{02AD654D-14A5-4589-817F-C131D6889CFB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE03790D-C643-4DE6-ACD7-B1B6E5664E26} = {6A5AE4F3-A7C1-4253-A5A7-786C82D11089}
+		{02AD654D-14A5-4589-817F-C131D6889CFB} = {6A5AE4F3-A7C1-4253-A5A7-786C82D11089}
+		{F6CAFBFB-2AC2-4241-938A-EF2001A19B36} = {E1CDAE82-D33C-42C9-AF4A-D6E397399F20}
+	EndGlobalSection
+EndGlobal
